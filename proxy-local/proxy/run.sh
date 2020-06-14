@@ -1,0 +1,1 @@
+docker run --rm -p 80:80 --name nginx-proxy-local -v "$PWD"/default.conf:/etc/nginx/conf.d/default.conf -d nginx
